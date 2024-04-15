@@ -7,62 +7,76 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="estilo.css">
-
-
+    
+    <?php
+    //XMLko konfiguraziotik hartzen dute informazioa
+    $config = simplexml_load_file("conf.xml");
+ 
+    $mainColor = $config->mainColor;
+    $footerColor = $config->footerColor;
+ 
+ 
+    ?>
+    <style>
+        :root {
+            --mainColor:
+                <?= $mainColor ?>
+            ;
+            --footerColor:
+                <?= $footerColor ?>
+            ;
+        }
+ 
+        /* AZPIAN EGON BEAHR DA CSS-a mainColor eta footerColor erabiltzen dituztenak */
+    </style>
 </head>
 <body>
     <!-- SECCION INICIO -->
     <section id="inicio">
-        <header>
-            <div class="contenido-header">
-                <div class="logo">
-                    <img src="img/trio_sabroso_logo-transformed.png" alt="" width="300" height="175">
-                </div>
-                <nav id="nav">
-                    <ul>
-                        <li>
-                            <a href="#inicio" onclick="seleccionar()">
-                                <i class="fa-solid fa-house"></i>
-                                <span>Inicio</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#sabores" onclick="seleccionar()">
-                                <i class="fa-solid fa-ice-cream"></i>
-                                <span>Sabores</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#platos" onclick="seleccionar()">
-                                <i class="fa-solid fa-utensils"></i>
-                                <span>Platos</span>
-                            </a></li>
-                        <li>
-                            <a href="#blog" onclick="seleccionar()">
-                                <i class="fa-solid fa-pen"></i>
-                                <span>Blog</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contacto" onclick="seleccionar()">
-                                <i class="fa-solid fa-comments"></i>
-                                <span>Contacto</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="social">
-                    <a href="tel:+34 943 27 84 65">
-                        <i class="fa-solid fa-phone"></i>+34 943 27 84 65
-                    </a>
-                    <a href="https://www.instagram.com/arzakrestaurant/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://twitter.com/arzakrestaurant?lang=es"><i class="fa-brands fa-twitter"></i></a> 
-                </div>
-                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+    <header>
+    <div class="contenido-header">
+        <div class="logo">
+            <img src="img/trio_sabroso_logo-transformed.png" alt="" width="300" height="175">
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                <li><a href="#sabores" onclick="seleccionar()"><i class="fa-solid fa-ice-cream"></i>Sabores</a></li>
+                <li><a href="#platos" onclick="seleccionar()"><i class="fa-solid fa-utensils"></i>Platos</a></li>
+                <li><a href="#blog" onclick="seleccionar()"><i class="fa-solid fa-pen"></i>Blog</a></li>
+                <li><a href="#contacto" onclick="seleccionar()"><i class="fa-solid fa-comments"></i>Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="right-section">
+            <div class="social">
+                <a href="tel:+34 943 27 84 65"><i class="fa-solid fa-phone"></i>+34 943 27 84 65</a>
+                <a href="https://www.instagram.com/arzakrestaurant/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/arzakrestaurant?lang=es"><i class="fa-brands fa-twitter"></i></a> 
             </div>
-        </header>
+            <br><br>
+            <!-- Formulario para cambiar colores -->
+            <div class="form-colors">
+                <form action="update-colors.php" method="post">
+                    <div class="color-field">
+                        <label for="mainColor">Color Primario:</label>
+                        <input type="color" id="mainColor" name="mainColor" title="Color Principal">
+                    </div>
+                    <div class="color-field">
+                        <label for="footerColor">Color de footer:</label>
+                        <input type="color" id="footerColor" name="footerColor" title="Color de Footer">
+
+                    </div>
+                    <input type="submit" value="Actualizar">
+                </form>
+            </div>
+        </div>
+        <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+
         <!-- Carrusel -->
         <div class="carrusel">
             <div class="gallery js-flickity" data-flickity-options='{ "wrapAround":true, "pageDots": false, "autoPlay": true}'>
