@@ -59,11 +59,11 @@
                 <form action="update-colors.php" method="post">
                     <div class="color-field">
                         <label for="mainColor">Color Primario:</label>
-                        <input type="color" id="mainColor" name="mainColor" title="Color Principal">
+                        <input type="color" id="mainColor" name="mainColor" title="Color Principal" value="<?= $config->mainColor ?>"/>
                     </div>
                     <div class="color-field">
                         <label for="footerColor">Color de footer:</label>
-                        <input type="color" id="footerColor" name="footerColor" title="Color de Footer">
+                        <input type="color" id="footerColor" name="footerColor" title="Color de Footer" value="<?= $config->footerColor ?>"/>
 
                     </div>
                     <input type="submit" value="Actualizar">
