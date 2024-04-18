@@ -291,8 +291,10 @@
                 </div>
             </div>
             <div class="col">
-                <h3>Comentario</h3>
-                
+            <section id="contacto">
+    <div class="fila">
+        <div class="col-form">
+            <h3>Comentario</h3>
             <form action="galdetegia.php" method="post">
                 <label for="izena">Izena:</label><br>
                 <input type="text" id="izena" name="izena" required><br><br>
@@ -302,34 +304,34 @@
 
                 <input type="submit" value="Bidali">
             </form>
-            <?php
-              if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                // Formularioko datuak lortu
-                $izena = $_POST['izena'];
-                $komentarioa = $_POST['komentarioa'];
-                $data = date('Y-m-d'); // Data aktuala lortu
-
-                // xml artxiboa kargatu
-                $archivo_xml = 'iruzkina.xml';
-                $xml = simplexml_load_file($archivo_xml);
-
-                // Komentario berria gehitu
-                $komentario_berria = $xml->addChild('iruzkina');
-                $komentario_berria->addChild('izena', $izena);
-                $komentario_berria->addChild('data', $data);
-                $komentario_berria->addChild('komentarioa', $komentarioa);
-
-                // XML-a gorde
-                $xml->asXML($archivo_xml);
-                echo "Komentarioa zuzen gorde da.";
-              }else{
-                
-              }
-            ?>
-            </div>
         </div>
+        <div class="col-comments">
+            <h3>Iruzkinak:</h3>
+            <?php
+            $archivo_xml = 'iruzkinak.xml';
+            if (file_exists($archivo_xml)) {
+                $xml = simplexml_load_file($archivo_xml);
+                if ($xml === false) {
+                    echo "Errorea iruzkinak kargatzean.";
+                } else {
+                    // Recorrer cada comentario en el archivo XML y mostrarlo
+                    foreach ($xml->iruzkina as $iruzkina) {
+                        echo "<div class='comment'>";
+                        echo "<h4>" . htmlspecialchars($iruzkina->izena) . "</h4>";
+                        echo "<p>" . htmlspecialchars($iruzkina->komentarioa) . "</p>";
+                        echo "<small>Data: " . $iruzkina->data . "</small>";
+                        echo "</div>";
+                    }
+                }
+            } else {
+                echo "Oraindik ez dago iruzkinik.";
+            }
+            ?>
+        </div>
+    </div>
+</section>
 
-    </section>
+
     
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="script.js"></script>

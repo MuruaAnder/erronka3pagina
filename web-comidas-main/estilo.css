@@ -279,11 +279,12 @@ html{
     background-color:var(--footerColor);
     padding: 50px 0;
 }
-#contacto .fila{
+#contacto .fila {
+    display: flex;
+    justify-content: space-between; /* Ajusta esto según necesites */
+    align-items: start; /* Alinea los elementos al inicio */
     max-width: 1100px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
     color: #fff;
 }
 #contacto a{
@@ -318,6 +319,14 @@ html{
     width: fit-content;
     margin-top: 15px;
     cursor: pointer;
+}
+#contacto .col-form, #contacto .col-comments {
+    flex: 1; /* Ambas columnas toman el mismo espacio */
+    padding: 10px; /* Añade un poco de espacio */
+}
+
+#contacto .comment {
+    margin-bottom: 10px; /* Espacio entre comentarios */
 }
 
 /* ***************** */
@@ -385,5 +394,10 @@ html{
     }
     #contacto .fila input{
         width: 90%;
+    }
+}
+@media screen and (max-width: 700px) {
+    #contacto .fila {
+        flex-direction: column;
     }
 }
