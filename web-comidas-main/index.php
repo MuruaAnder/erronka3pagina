@@ -264,48 +264,43 @@
 
     <!-- SECCION CONTACTO Y PIE DE PAGINA -->
     <section id="contacto">
-        <div class="fila">
-            <div class="col">
-                <h1>Trio Sabroso</h1>
-            </div>
-            <div class="col">
-                <h3>Menú</h3>
-                <a href="#inicio">Inicio</a>
-                <a href="#sabores">Sabores</a>
-                <a href="#sabores">Platos</a>
-                <a href="#sabores">Blog</a>
-            </div>
-            <div class="col">
-                <h3>Cheffs</h3>
-                <a href="#">Unaica</a>
-                <a href="#">Porti</a>
-                <a href="#">Murua</a>
-            </div>
-            <div class="col">
-                <h3>Social Media</h3>
-                <div class="media">
-                    <i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a>
-                </div>
-                <div class="media">
-                    <i class="fa-brands fa-instagram"></i> <a href="#">Instagram</a>
-                </div>
-            </div>
-            <div class="col">
-            <section id="contacto">
     <div class="fila">
-        <div class="col-form">
+        <div class="col">
+            <h1>Trio Sabroso</h1>
+        </div>
+        <div class="col">
+            <h3>Menú</h3>
+            <a href="#inicio">Inicio</a>
+            <a href="#sabores">Sabores</a>
+            <a href="#sabores">Platos</a>
+            <a href="#sabores">Blog</a>
+        </div>
+        <div class="col">
+            <h3>Cheffs</h3>
+            <a href="#">Unaica</a>
+            <a href="#">Porti</a>
+            <a href="#">Murua</a>
+        </div>
+        <div class="col">
+            <h3>Social Media</h3>
+            <div class="media">
+                <i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a>
+            </div>
+            <div class="media">
+                <i class="fa-brands fa-instagram"></i> <a href="#">Instagram</a>
+            </div>
+        </div>
+        <div class="col">
             <h3>Comentario</h3>
             <form action="galdetegia.php" method="post">
                 <label for="izena">Izena:</label><br>
                 <input type="text" id="izena" name="izena" required><br><br>
-
                 <label for="komentarioa">Komentarioa:</label><br>
                 <textarea id="komentarioa" name="komentarioa" rows="4" cols="50" required></textarea><br><br>
-
                 <input type="submit" value="Bidali">
             </form>
         </div>
-        <div class="col-comments">
+        <div class="col">
             <h3>Iruzkinak:</h3>
             <?php
             $archivo_xml = 'iruzkinak.xml';
