@@ -313,7 +313,7 @@ html{
     border-radius: 30px;
 }
 #contacto .enviar{
-    background-color: #f4721c;
+    background-color:var(--footer2Color);
     color: #fff;
     width: fit-content;
     margin-top: 15px;

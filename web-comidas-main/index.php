@@ -14,6 +14,7 @@
  
     $mainColor = $config->mainColor;
     $footerColor = $config->footerColor;
+    $footer2Color = $config->footer2Color;
  
  
     ?>
@@ -24,6 +25,9 @@
             ;
             --footerColor:
                 <?= $footerColor ?>
+            ;
+            --footer2Color:
+                <?= $footer2Color ?>
             ;
         }
  
@@ -287,9 +291,41 @@
                 </div>
             </div>
             <div class="col">
-                <h3>Contacto</h3>
-                <input type="text" placeholder="Tu correo">
-                <input type="submit" class="enviar">
+                <h3>Comentario</h3>
+                
+            <form action="galdetegia.php" method="post">
+                <label for="izena">Izena:</label><br>
+                <input type="text" id="izena" name="izena" required><br><br>
+
+                <label for="komentarioa">Komentarioa:</label><br>
+                <textarea id="komentarioa" name="komentarioa" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Bidali">
+            </form>
+            <?php
+              if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                // Formularioko datuak lortu
+                $izena = $_POST['izena'];
+                $komentarioa = $_POST['komentarioa'];
+                $data = date('Y-m-d'); // Data aktuala lortu
+
+                // xml artxiboa kargatu
+                $archivo_xml = 'iruzkina.xml';
+                $xml = simplexml_load_file($archivo_xml);
+
+                // Komentario berria gehitu
+                $komentario_berria = $xml->addChild('iruzkina');
+                $komentario_berria->addChild('izena', $izena);
+                $komentario_berria->addChild('data', $data);
+                $komentario_berria->addChild('komentarioa', $komentarioa);
+
+                // XML-a gorde
+                $xml->asXML($archivo_xml);
+                echo "Komentarioa zuzen gorde da.";
+              }else{
+                
+              }
+            ?>
             </div>
         </div>
 
