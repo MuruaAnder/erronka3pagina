@@ -49,6 +49,7 @@
                 <li><a href="#platos" onclick="seleccionar()"><i class="fa-solid fa-utensils"></i>Platos</a></li>
                 <li><a href="#blog" onclick="seleccionar()"><i class="fa-solid fa-pen"></i>Blog</a></li>
                 <li><a href="#contacto" onclick="seleccionar()"><i class="fa-solid fa-comments"></i>Contacto</a></li>
+                <li><a href="iniciarSesion.php" onclick="seleccionar()"><i class="fa-solid fa-sign-in"></i>Iniciar <br> Sesion</a></li>
             </ul>
         </nav>
         <div class="right-section">
