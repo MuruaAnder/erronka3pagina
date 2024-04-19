@@ -1,99 +1,68 @@
 <?php
 return [
     //HEAD
-    "guriBuruz" => "Sobre nosotros",
-    "DatuKuriosoak" => "Datos curiosos",
-    "JokalariDenda" => "Tienda de jugadores",
-    "plantila" => "Banquillo",
-    "KolorKonf" => "Configurar colores",
-    "mainColor" => "Color principal",
-    "secondColor" => "Color secundario",
-    "Gorde" => "Guardar",
-    "search" => "Buscar",
-    "logIn" => "IniciarSesion",
-    "aldatu" => "Cambiar",
+    "Inicio" => "",
+    "Sabores" => "",
+    "Platos" => "",
+    "Sesion" => "",
+    "Color primario:" => "",
+    "Color de footer:" => "",
+ 
+    //Karrusela
 
+    "Comidas exquisitas para el paladar!"=>"",
+    "¡Sabor en Tres Tiempos, Placer en Cada Bocado!"=>"",
+    "Leer más"=>"",
 
+    //Zaporek
 
-    //datukuriosoak
+    "Sabores"=>"",
+    "Ensladas"=>"",
+    "Crunch fresco, colores vibrantes, frescura saludable en cada hoja."=>"",
+    "Tortas"=>"",
+    "Tierno deleite, dulce y esponjoso, fundiéndose en cada mordida."=>"",
+    "Hamburguesas"=>"",
+    "Sabrosa explosión de carne, jugosidad y condimentos en cada bocado."=>"",
+    "Helados"=>"",
+    "Fresco deleite cremoso, dulce frío que acaricia el paladar."=>"",
+    "Pastas"=>"",
+    "Delicada pasta al dente, bañada en salsa, sabor reconfortante."=>"",
+    "Galletas"=>"",
+    "Crujientes galletas, dulces tentaciones que endulzan el momento."=>"",
+    "Ver más"=>"",
 
-
-
-    "createdBY" => "Creado por",
-    "funFactAdd" => "Añadir dato curioso",
-    "izenaAbizena" => "Nombre y apellidos",
-    "titulo" => "Titulo",
-    "body" => "Cuerpo",
-    "FunFacts" => "Datos curiosos",
-    "sendFunFact" => "Enviar dato curioso",
-
-    //Test
-
-    "LogeatuHauIkusteko" => "Inicia sesion para ver esto",
-
-    //Denda
+    //Platos
     
-    "jokalariak" => "Jugadores",
-    "sobreak" => "Sobres",
-    "zureDirua" => "Tu dinero",
-    "erosi" => "Comprar",
-    "sobreNormal" => "Sobre normal",
-    "sobreEspecial" => "Sobre especial",
-    "sobreEpico" => "Sobre epico",
-    "sobreLeguendario" => "Sobre leguendario",
-    "erosi jokalaria" => "Comprar jugador",
-    "modelo" => "Modelo",
-    "kop" => "Cantidad",
-    "beteForm" => "Llena el formulario porfavor",
-    "bidali" => "Enviar",
-    "IngreseDNI" => "Ingrese su DNI",
-    "IngreseNUME" => "Ingrese el numero del pedido",
+    "Platos"=>"",
+    "El kare"=>"",
+    "Carne de Picanha"=>"",
+    "Pollo a la brasa"=>"",
+    "Plato de Pizza con rucula"=>"",
+    "Plato de pastas con tuco"=>"",
+    "Ver más"=>"",
 
 
+    // Bloga
+    "El arte de las frutas"=>"",
+    "El aguacate también ayudará a que caiga menos el pelo, todo gracias a sus grasas saludables,ácido omega 3 y vitaminas E y B."=>   "", 
+    "Tratamientos prohibidos"=>"",
+    "Aguas minerales de Perrier, Vittel y Cristaline, entre otras, son sometidas a tratamientos prohibidos por la normativa francesa."=>"",
+    "Los beneficios de la inflacion"=>"",
+    "Los gigantes de la industria alimentaria y la gran distribución son los beneficiados de la inflación."=>"",
+    "Problemas con las frutas"=>"",
+    "Pagamos el kilo de limones casi 10 veces su valor en el campo. Por cuarto mes consecutivo, esta fruta se coloca a la cabeza en el ranking de las diferencias de precio especulativas."=>"",
+    "Leer más"=>"",
 
-    // index.php
-    "OngiEtorri" => "Bienvenido a Black Market",
-    "GuriBuruztext" => "¡Hola! Aunque \"Black Market\" está en rehabilitación, nuestro objetivo es ofrecer productos de alta calidad a bajo coste. Ofrecemos oportunidades y previsiones adaptadas a las necesidades de nuestros clientes, siempre que la tecnología se esté adelantando al mundo. Nuestro compromiso es poner la calidad y la satisfacción de los clientes. ¡Con nosotros, para que tengas a nuestro alcance las nuevas tecnologías!",
-    "GuriBuruz" => "Sobre nosotros",
-    "kokapena" => "Ubicacion",
-    "sortzaileak" => "Fundadores de Black Market",
-    "Kontaktoa" => "Contacto",
-    "Kontakto eta sare sozialak" => "Contacto y redes sociales",
-    // pagina_konponenteak.php
+    // footerra
 
-    "Gure Produktuak" => "Nuestros productos",
-    "Aukeratu Konponentre mota" => "Elije el tipo de conponente",
-    "Konponenteak" => "Conponentes",
-    "Marka" => "Marca",
-    "Prezioa" => "Precio",
-    "Ordenatu" => "Ordenar",
-    "Bilatu" => "Buscar",
-    "Balorazioa" => "Valoracion",
-    "Berriak" => "Noticias",
-    "Hornitzaileak" => "Proveedores",
-    "Denak" => "Todos",
-    "Ez dago irizpide hauek betetzen dituet produkturik." => "No hay pedidos que cumplan estos criterios.",
-    "saskiraGehitu" => "Añadir a la cesta",
-
-
-    // berriak
-    "azalpenaBerriak1" => "Anteriores o posteriores a un fecha",
-    "aurreragokoak" => "Posteriores",
-    "lehenagokoak" => "Anteriores",
-    "Egun hontatik" => "Desde este dia",
-    "Egun hontara" => "Hasta este dia",
-
-
-    // hornitzaileak
-
-    "HornitzaileaIzateko" => "Rellena este formulario para ser proveedor",
-    "Telefono" => "Numero de telefono de la empresa",
-    "Empresaren Izena" => "Nombre de la empresa",
-    "Korreoa" => "Correo de la empresa",
-    "Helbidea" => "Direccion de la empresa",
-    "NanNif" => "Dni/Nif",
-    "eskaintzen" => "Que nos ofrece?",
-    "Hornitzaile bihurtu" => "Convertirse en proveedor",
-    "Ezabatu" => "Borrar",
+    "Menu"=>"",
+    "Inicio"=>"",
+    "Sabores"=>"",
+    "Platos"=>"",
+    "Redes sociales"=>"",
+    "Comentario"=>"",
+    "Nombre"=>"",
+    "Komentario:"=>"",
+    "Comentario"=>"",
 ];
 
