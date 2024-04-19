@@ -19,7 +19,7 @@ return [
     "Sabores"=>"",
     "Ensladas"=>"",
     "Crunch fresco, colores vibrantes, frescura saludable en cada hoja."=>"",
-    "Tortas"=>"",
+    "Tortas"=>"Pasteles",
     "Tierno deleite, dulce y esponjoso, fundiéndose en cada mordida."=>"",
     "Hamburguesas"=>"",
     "Sabrosa explosión de carne, jugosidad y condimentos en cada bocado."=>"",
