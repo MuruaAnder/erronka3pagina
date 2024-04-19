@@ -1,103 +1,67 @@
 <?php
 return [
     //HEAD
+    "Inicio" => "Hasiera",
+    "Sabores" => "Zaporeak",
+    "Platos" => "Platerak",
+    "Sesion" => "Sesioa",
+    "Color primario:" => "Kolore nagusia:",
+    "Color de footer:" => "Footerraren kolorea:",
+ 
+    //Karrusela
 
+    "Comidas exquisitas para el paladar!"=>"Otordu bikainak ahosabaiarentzat!",
+    "¡Sabor en Tres Tiempos, Placer en Cada Bocado!"=>"Zaporea hiru garaitan, plazera mokadu bakoitzean!",
+    "Leer más"=>"Gehiago irakurri",
 
-    "guriBuruz" => "Guri buruz",
-    "DatuKuriosoak" => "Datu kuriosoak",
-    "JokalariDenda" => "Jokalari denda",
-    "plantila" => "Bankiloak",
-    "KolorKonf" => "Koloreak konfiguratu",
-    "mainColor" => "Kolore nagusia",
-    "secondColor" => "Bigarren kolorea",
-    "Gorde" => "Gorde",
-    "search" => "Bilatu",
-    "logIn" => "SaioaHasi",
-    "aldatu" => "Aldatu",
+    //Zaporek
 
+    "Sabores"=>"Zaporeak",
+    "Ensladas"=>"Entsaladak",
+    "Crunch fresco, colores vibrantes, frescura saludable en cada hoja."=>"Crunch freskoa, kolore biziak, freskotasun osasungarria orri bakoitzean.",
+    "Tortas"=>"Tortak",
+    "Tierno deleite, dulce y esponjoso, fundiéndose en cada mordida."=>"Atsegina, gozoa eta harroa da, eta hozkada bakoitzean bat egiten du.",
+    "Hamburguesas"=>"Hamburgesak",
+    "Sabrosa explosión de carne, jugosidad y condimentos en cada bocado."=>"Haragi-leherketa zaporetsua, mamitsua eta gozagarriak mokadu bakoitzean.",
+    "Helados"=>"Izozkiak",
+    "Fresco deleite cremoso, dulce frío que acaricia el paladar."=>"Gozagarri krematsua, ahosabaia laztantzen duen gozo hotza.",
+    "Pastas"=>"Pastak",
+    "Delicada pasta al dente, bañada en salsa, sabor reconfortante."=>"Pasta delikatua dente erara, saltsan bustia, zapore erosoa.",
+    "Galletas"=>"Galletak",
+    "Crujientes galletas, dulces tentaciones que endulzan el momento."=>"Gaileta kurruskariak, unea gozatzen duten tentazio gozoak.",
+    "Ver más"=>"Gehiago",
 
-    //datukuriosoak
-
-
-    "createdBY" => "Sortzailea",
-    "funFactAdd" => "Datu kuriosoak gehitu",
-    "izenaAbizena" => "Izena eta abizenak",
-    "titulo" => "Izen burua",
-    "body" => "Gorputza",
-    "FunFacts" => "Datu kuriosoak",
-    "sendFunFact" => "Datu kuriosoa bidali",
-
-    //Test
-
-    "LogeatuHauIkusteko" => "Saioa hasi hau ikusteko",
-
-    //Denda
+    //Platos
     
-    "jokalariak" => "Jokalariak",
-    "sobreak" => "Sobreak",
-    "zureDirua" => "Zure dirua",
-    "erosi" => "Erosi",
-    "sobreNormal" => "Sobre arrunta",
-    "sobreEspecial" => "Sobre berezia",
-    "sobreEpico" => "Sobre zinistezina",
-    "sobreLeguendario" => "Sobre elezaharra",
-    "erosi jokalaria" => "Jokalaria erosi",
-    "modelo" => "Modeloa",
-    "kop" => "Kopurua",
-    "beteForm" => "Mesedez bete formularioa",
-    "bidali" => "bidali",
-    "IngreseDNI" => "Sartu zure NAN-a",
-    "IngreseNUME" => "Sartu eskaeraren zenbakia",
+    "Platos"=>"Platerak",
+    "El kare"=>"Karea",
+    "Carne de Picanha"=>"Pikanha haragia",
+    "Pollo a la brasa"=>"Oilaskoa brasan",
+    "Plato de Pizza con rucula"=>"Pizza platera rukularekin",
+    "Plato de pastas con tuco"=>"Pasta-platera tukoarekin",
+    "Ver más"=>"Gehiago ikusi",
 
 
+    // Bloga
+    "El arte de las frutas"=>"Frutaren artea",
+    "El aguacate también ayudará a que caiga menos el pelo, todo gracias a sus grasas saludables,ácido omega 3 y vitaminas E y B."=>   "", 
+    "Tratamientos prohibidos"=>"Aguakateak ilea gutxiago erortzen ere lagunduko du, koipeei, omega 3 azidoari eta E eta B bitaminei esker.",
+    "Aguas minerales de Perrier, Vittel y Cristaline, entre otras, son sometidas a tratamientos prohibidos por la normativa francesa."=>"Perrier, Vittel eta Cristalineko ur mineralak, besteak beste, Frantziako araudiak debekatzen dituen tratamenduak jasotzen dituzte.",
+    "Los beneficios de la inflacion"=>"Inflazioaren benefizioa",
+    "Los gigantes de la industria alimentaria y la gran distribución son los beneficiados de la inflación."=>"",
+    "Problemas con las frutas"=>"Elikagaien industriako erraldoiak eta banaketa handia dira inflazioaren onuradunak.",
+    "Pagamos el kilo de limones casi 10 veces su valor en el campo. Por cuarto mes consecutivo, esta fruta se coloca a la cabeza en el ranking de las diferencias de precio especulativas."=>"Limoi-kiloa ia 10 aldiz ordaintzen dugu zelaian duen balioa. Laugarren hilabetez jarraian, espekulazio-prezioen diferentzien rankingean jartzen da fruta hori",
+    "Leer más"=>"Gehiago irakurri",
 
+    // footerra
 
-
-    // index.php
-    "OngiEtorri" => "Ongi etorri BLACK MARKET-era",
-    "GuriBuruztext" => "¡Kaixo! \"Black Market\" enpresa birgaitzean dagoen arren, gure helburua da kalitate handiko produktuak merkean eskaintzea. Gure bezeroen beharrei egokitutako aukerak eta aurreikuspenak ematen ditugu, beti ere teknologia munduaren aurrez ari garelarik. Gure konpromisoa da kalitatea eta bezeroen pozaren gainean jartzea. Gurekin batera, teknologia berriak gure eskura izan ditzazun!",
-    "GuriBuruz" => "GuriBuruz",
-    "kokapena" => "kokapena",
-    "sortzaileak" => "Black Marketen sortzaileak",
-    "Kontaktoa" => "Kontaktoa",
-    "Kontakto eta sare sozialak" => "Kontakto eta sare sozialak",
-
-    // pagina_konponenteak.php
-
-
-    "Gure Produktuak" => "Gure Produktuak",
-    "Konponenteak" => "Konponenteak",
-    "Aukeratu Konponentre mota" => "Aukeratu Konponentre mota",
-    "Marka" => "Marka",
-    "Prezioa" => "Prezioa",
-    "Ordenatu" => "Ordenatu",
-    "Bilatu" => "Bilatu",
-    "Balorazioa" => "Balorazioa",
-    "Berriak" => "Berriak",
-    "Hornitzaileak" => "Hornitzaileak",
-    "Denak" => "Denak",
-    "Ez dago irizpide hauek betetzen dituet produkturik." => "Ez dago irizpide hauek betetzen dituen eskaerarik.",
-    "saskiraGehitu" => "Saskira Gehitu",
-
-
-    // berriak
-
-    "azalpenaBerriak1" => "Egun batetik aurreragokoak edo lehenagokoak",
-    "aurreragokoak" => "Aurreragokoak",
-    "lehenagokoak" => "Lehenagokoak",
-    "Egun hontatik" => "Egun hontatik",
-    "Egun hontara" => "Egun hontara",
-
-
-    // hornitzaileak
-
-    "HornitzaileaIzateko" => "Hornitzaile izateko formulario hau bete",
-    "Telefono" => "Empresarako Telefono Zenbakia",
-    "Empresaren Izena" => "Empresaren Izena",
-    "Korreoa" => "Empresaren Korreoa",
-    "Helbidea" => "Empresaren Helbidea",
-    "NanNif" => "Nan/Nif",
-    "eskaintzen" => "Zer eskaintzen duzue?",
-    "Hornitzaile bihurtu" => "Hornitzaile bihurtu",
-    "Ezabatu" => "Ezabatu",
+    "Menu"=>"Menua",
+    "Inicio"=>"Hasiera",
+    "Sabores"=>"Zaporeak",
+    "Platos"=>"Platerak",
+    "Redes sociales"=>"Sare sozialak",
+    "Comentario"=>"Komenarioa",
+    "Nombre"=>"Izena",
+    "Komentario:"=>"Komentarioa",
+    "Comentario"=>"Komentarioa",
 ];

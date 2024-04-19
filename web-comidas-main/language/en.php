@@ -1,98 +1,67 @@
 <?php
 return [
     //HEAD
-    "guriBuruz" => "About us",
-    "DatuKuriosoak" => "Fun facts",
-    "JokalariDenda" => "Player shop",
-    "plantila" => "Bench",
-    "KolorKonf" => "Color configuration",
-    "mainColor" => "Main color",
-    "secondColor" => "Secondary color",
-    "Gorde" => "Save",
-    "search" => "Search",
-    "logIn" => "LogIn",
-    "aldatu" => "Change",
+    "Inicio" => "",
+    "Sabores" => "",
+    "Platos" => "",
+    "Sesion" => "",
+    "Color primario:" => "",
+    "Color de footer:" => "",
+ 
+    //Karrusela
+
+    "Comidas exquisitas para el paladar!"=>"",
+    "¡Sabor en Tres Tiempos, Placer en Cada Bocado!"=>"",
+    "Leer más"=>"",
+
+    //Zaporek
+
+    "Sabores"=>"",
+    "Ensladas"=>"",
+    "Crunch fresco, colores vibrantes, frescura saludable en cada hoja."=>"",
+    "Tortas"=>"",
+    "Tierno deleite, dulce y esponjoso, fundiéndose en cada mordida."=>"",
+    "Hamburguesas"=>"",
+    "Sabrosa explosión de carne, jugosidad y condimentos en cada bocado."=>"",
+    "Helados"=>"",
+    "Fresco deleite cremoso, dulce frío que acaricia el paladar."=>"",
+    "Pastas"=>"",
+    "Delicada pasta al dente, bañada en salsa, sabor reconfortante."=>"",
+    "Galletas"=>"",
+    "Crujientes galletas, dulces tentaciones que endulzan el momento."=>"",
+    "Ver más"=>"",
+
+    //Platos
+    
+    "Platos"=>"",
+    "El kare"=>"",
+    "Carne de Picanha"=>"",
+    "Pollo a la brasa"=>"",
+    "Plato de Pizza con rucula"=>"",
+    "Plato de pastas con tuco"=>"",
+    "Ver más"=>"",
 
 
+    // Bloga
+    "El arte de las frutas"=>"",
+    "El aguacate también ayudará a que caiga menos el pelo, todo gracias a sus grasas saludables,ácido omega 3 y vitaminas E y B."=>   "", 
+    "Tratamientos prohibidos"=>"",
+    "Aguas minerales de Perrier, Vittel y Cristaline, entre otras, son sometidas a tratamientos prohibidos por la normativa francesa."=>"",
+    "Los beneficios de la inflacion"=>"",
+    "Los gigantes de la industria alimentaria y la gran distribución son los beneficiados de la inflación."=>"",
+    "Problemas con las frutas"=>"",
+    "Pagamos el kilo de limones casi 10 veces su valor en el campo. Por cuarto mes consecutivo, esta fruta se coloca a la cabeza en el ranking de las diferencias de precio especulativas."=>"",
+    "Leer más"=>"",
 
-    //datukuriosoak
+    // footerra
 
-    "createdBY" => "Created by",
-    "funFactAdd" => "Add a fun fact",
-    "izenaAbizena" => "Name and surnames",
-    "titulo" => "Title",
-    "body" => "Body",
-    "FunFacts" => "Fun facts",
-    "sendFunFact" => "Send fun fact",
-
-    //Test
-
-    "LogeatuHauIkusteko" => "Log in to see this",
-
-    //Denda
-
-    "jokalariak" => "Players",
-    "sobreak" => "Packs",
-    "zureDirua" => "Your money",
-    "erosi" => "Buy",
-    "sobreNormal" => "Normal pack",
-    "sobreEspecial" => "Special pack",
-    "sobreEpico" => "Epic pack",
-    "sobreLeguendario" => "Leguendary pack",
-    "erosi jokalaria" => "Buy player",
-    "modelo" => "Model",
-    "kop" => "Quantity",
-    "beteForm" => "Fill the form please",
-    "bidali" => "Send",
-    "IngreseDNI" => "Insert your DNI",
-    "IngreseNUME" => "Insert the order number",
-
-
-
-    // index.php
-    "OngiEtorri" => "Welcome to Black Market",
-    "GuriBuruztext" => "Hello! Although Black Market is in rehabilitation, our goal is to offer high-quality products at low cost. We offer opportunities and forecasts tailored to the needs of our customers, as long as technology is advancing to the world. Our commitment is to bring quality and customer satisfaction. With us, so that you have at our fingertips the new technologies!",
-    "GuriBuruz" => "About us",
-    "kokapena" => "Ubication",
-    "sortzaileak" => "Black Market founders",
-    "Kontaktoa" => "Contact",
-    "Kontakto eta sare sozialak" => "Contact and social medias",
-
-
-    // pagina_konponenteak.php
-    "Gure Produktuak" => "Our products",
-    "Aukeratu Konponentre mota" => "Choose the type of conponent",
-    "Konponenteak" => "Conponents",
-    "Marka" => "Brand",
-    "Prezioa" => "Price",
-    "Ordenatu" => "Order by",
-    "Bilatu" => "Search",
-    "Balorazioa" => "Valoration",
-    "Berriak" => "News",
-    "Hornitzaileak" => "Suppliers",
-    "Denak" => "All",
-    "Ez dago irizpide hauek betetzen dituet produkturik." => "There are no orders that meet these criteria.",
-    "saskiraGehitu" => "Add to cart",
-
-
-    // berriak
-
-    "azalpenaBerriak1" => "Before or after a date",
-    "aurreragokoak" => "After",
-    "lehenagokoak" => "Before",
-    "Egun hontatik" => "From this date",
-    "Egun hontara" => "To this date",
-
-    // hornitzaileak
-
-    "HornitzaileaIzateko" => "Fill out this form to be a supplier",
-    "Telefono" => "Telephone number of the company",
-    "Empresaren Izena" => "Company name",
-    "Korreoa" => "Company mail",
-    "Helbidea" => "Company direction",
-    "NanNif" => "ID NIF",
-    "eskaintzen" => "What do you offer??",
-    "Hornitzaile bihurtu" => "Become supplier",
-    "Ezabatu" => "Delete",
+    "Menu"=>"",
+    "Inicio"=>"",
+    "Sabores"=>"",
+    "Platos"=>"",
+    "Redes sociales"=>"",
+    "Comentario"=>"",
+    "Nombre"=>"",
+    "Komentario:"=>"",
+    "Comentario"=>"",
 ];
-
