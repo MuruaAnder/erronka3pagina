@@ -7,6 +7,7 @@ return [
     "Sesion" => "Sesion",
     "Color primario:" => "Color primario:",
     "Color de footer:" => "Color de footer:",
+    "aldatu"=>"Cambiar",
  
     //Karrusela
 

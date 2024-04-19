@@ -7,6 +7,7 @@ return [
     "Sesion" => "Sesioa",
     "Color primario:" => "Kolore nagusia:",
     "Color de footer:" => "Footerraren kolorea:",
+    "aldatu"=>"Aldatu",
  
     //Karrusela
 

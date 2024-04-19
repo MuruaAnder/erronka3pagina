@@ -33,8 +33,8 @@ function trans($indexPhrase)
   static $tranlationsArray = array();
 
   //eus.php edo es.php existitzen den begiratzen da
-  if (file_exists(APP_DIR . '/src/language/' . $_SESSION["_LANGUAGE"] . '.php')) {
-    $url = APP_DIR . '/src/language/';
+  if (file_exists(APP_DIR . '/language/' . $_SESSION["_LANGUAGE"] . '.php')) {
+    $url = APP_DIR . '/language/';
     //Existitzen bada fitxategi horretan dagoen array-a $translationArray barruan sartzen da
     $tranlationsArray = include( $url . $_SESSION["_LANGUAGE"] . '.php');
 
