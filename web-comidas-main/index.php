@@ -133,7 +133,7 @@ if (!empty($_SESSION['usuario'])) {
             <div class="info">
                 <h2><?= trans("Comidas exquisitas para el paladar!") ?> </h2>
                 <p><?= trans("¡Sabor en Tres Tiempos, Placer en Cada Bocado!") ?></p>
-                <button><?= trans("Leer más") ?></button>
+                <button><a href="reserva.php"><?= trans("Haz tu reserva") ?></a></button>
             </div>
         </div>
 

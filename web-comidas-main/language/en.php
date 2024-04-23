@@ -17,6 +17,7 @@ return [
     "Comidas exquisitas para el paladar!"=>"Exquisite meals for the palate!",
     "¡Sabor en Tres Tiempos, Placer en Cada Bocado!"=>"Flavor in Three Times, Pleasure in Every Bite!",
     "Leer más"=>"Read more",
+    "Haz tu reserva!"=>"Make your reserve",
 
     //Zaporek
 

@@ -17,6 +17,7 @@ return [
     "Comidas exquisitas para el paladar!"=>"Otordu bikainak ahosabaiarentzat!",
     "¡Sabor en Tres Tiempos, Placer en Cada Bocado!"=>"Zaporea hiru garaitan, plazera mokadu bakoitzean!",
     "Leer más"=>"Gehiago irakurri",
+    "Haz tu reserva!"=>"Zure erreserba egin",
 
     //Zaporek
 
