@@ -8,6 +8,9 @@ return [
     "Color primario:" => "Kolore nagusia:",
     "Color de footer:" => "Footerraren kolorea:",
     "aldatu"=>"Aldatu",
+    "Contacto"=>"Kontaktua",
+    "Iniciar"=>"Saioa",
+    "Sesion"=>"hasi",
  
     //Karrusela
 
@@ -45,13 +48,17 @@ return [
 
     // Bloga
     "El arte de las frutas"=>"Frutaren artea",
-    "El aguacate también ayudará a que caiga menos el pelo, todo gracias a sus grasas saludables,ácido omega 3 y vitaminas E y B."=>   "", 
+    "El aguacate también ayudará a que caiga menos el pelo, todo gracias a sus grasas saludables,
+                            ácido omega 3 y vitaminas E y B."=>   "Aguakateak ilea gutxiago erortzen ere lagunduko du, koipeei, omega 3 azidoari eta E eta B bitaminei esker.", 
     "Tratamientos prohibidos"=>"Aguakateak ilea gutxiago erortzen ere lagunduko du, koipeei, omega 3 azidoari eta E eta B bitaminei esker.",
-    "Aguas minerales de Perrier, Vittel y Cristaline, entre otras, son sometidas a tratamientos prohibidos por la normativa francesa."=>"Perrier, Vittel eta Cristalineko ur mineralak, besteak beste, Frantziako araudiak debekatzen dituen tratamenduak jasotzen dituzte.",
+    "Aguas minerales de Perrier, Vittel y Cristaline, entre otras, son sometidas a tratamientos
+                            prohibidos por la normativa francesa."=>"Perrier, Vittel eta Cristalineko ur mineralak, besteak beste, Frantziako araudiak debekatzen dituen tratamenduak jasotzen dituzte.",
     "Los beneficios de la inflacion"=>"Inflazioaren benefizioa",
-    "Los gigantes de la industria alimentaria y la gran distribución son los beneficiados de la inflación."=>"",
-    "Problemas con las frutas"=>"Elikagaien industriako erraldoiak eta banaketa handia dira inflazioaren onuradunak.",
-    "Pagamos el kilo de limones casi 10 veces su valor en el campo. Por cuarto mes consecutivo, esta fruta se coloca a la cabeza en el ranking de las diferencias de precio especulativas."=>"Limoi-kiloa ia 10 aldiz ordaintzen dugu zelaian duen balioa. Laugarren hilabetez jarraian, espekulazio-prezioen diferentzien rankingean jartzen da fruta hori",
+    "Los gigantes de la industria alimentaria y la gran distribución son los beneficiados de la
+                            inflación."=>"Elikagaien industriako erraldoiak eta banaketa handia dira inflazioaren onuradunak.",
+    "Problemas con las frutas"=>"Frutekin arazoak",
+    "Pagamos el kilo de limones casi 10 veces su valor en el campo. Por cuarto mes consecutivo,
+                            esta fruta se coloca a la cabeza en el ranking de las diferencias de precio especulativas."=>"Limoi-kiloa ia 10 aldiz ordaintzen dugu zelaian duen balioa. Laugarren hilabetez jarraian, espekulazio-prezioen diferentzien rankingean jartzen da fruta hori",
     "Leer más"=>"Gehiago irakurri",
 
     // footerra

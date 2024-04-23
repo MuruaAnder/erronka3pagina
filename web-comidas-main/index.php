@@ -51,12 +51,20 @@
                     <img src="img/trio_sabroso_logo-transformed.png" alt="" width="300" height="175">
                 </div>
                 <?php
-                if ((isset($_SESSION['usuario'])) and (($_SESSION['usuario']) != "")) {
-                    $usuarioa = $_SESSION["usuario"];
-                } else {
-                    $usuarioa = "Iniciar <br> Sesion";
-                }
-                ?>
+// Start the session if not already started (optional, depends on your session management)
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Check if 'usuario' is set and not empty in the session
+if (!empty($_SESSION['usuario'])) {
+    $usuarioa = $_SESSION['usuario'];
+} else {
+    // Use the trans() function directly to assign values, assuming trans() returns the translated text
+    $usuarioa = trans("Iniciar") . "<br>" . trans("Sesion");
+}
+?>
+
                 <nav id="nav">
                     <ul>
                         <li><a href="#inicio" onclick="seleccionar()"><i class="fa-solid fa-house"></i><?= trans("Inicio") ?></a></li>

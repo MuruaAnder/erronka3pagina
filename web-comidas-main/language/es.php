@@ -8,6 +8,9 @@ return [
     "Color primario:" => "Color primario:",
     "Color de footer:" => "Color de footer:",
     "aldatu"=>"Cambiar",
+    "Contacto"=>"Contacto",
+    "Iniciar"=>"Iniciar",
+    "Sesion"=>"Sesion",
  
     //Karrusela
 
@@ -66,4 +69,3 @@ return [
     "Komentario:"=>"Comentario:",
     "Comentario"=>"Comentario",
 ];
-
