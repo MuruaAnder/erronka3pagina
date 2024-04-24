@@ -64,7 +64,7 @@ return [
 
     // footerra
 
-    "Menu"=>"Mneu",
+    "Menu"=>"Menu",
     "Inicio"=>"Start",
     "Sabores"=>"Flavours",
     "Platos"=>"Plates",
