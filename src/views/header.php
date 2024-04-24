@@ -93,7 +93,7 @@ require_once (APP_DIR . "/src/language/translations.php");
                     </div>
                     <!-- Color change form -->
                     <div class="form-colors">
-                        <form action="update-colors.php" method="post">
+                        <form action="../required/update-colors.php" method="post">
                             <div class="color-field">
                                 <label for="mainColor"><?= trans("Color primario:") ?></label>
                                 <input type="color" id="mainColor" name="mainColor" value="<?= $mainColor ?>" />

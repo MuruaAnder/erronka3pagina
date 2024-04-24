@@ -28,7 +28,7 @@
         </div>
         <div class="col">
             <h3><?= trans("Comentario") ?></h3>
-            <form action="galdetegia.php" method="post">
+            <form action="../required/galdetegia.php" method="post">
                 <label for="izena"><?= trans("Nombre") ?></label><br>
                 <input type="text" id="izena" name="izena" required><br><br>
                 <label for="komentarioa"><?= trans("Komentario:") ?></label><br>
@@ -39,7 +39,7 @@
         <div class="col">
             <h3><?= trans("Comentario") ?></h3>
             <?php
-            $archivo_xml = 'iruzkinak.xml';
+            $archivo_xml = '../xml/iruzkinak.xml';
             if (file_exists($archivo_xml)) {
                 $xml = simplexml_load_file($archivo_xml);
                 if ($xml === false) {

@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($mainColor && $footerColor) {
         // Cargar el archivo XML
-        $xmlFile = 'conf.xml';
+        $xmlFile = '../xml/conf.xml';
         if (file_exists($xmlFile)) {
             $config = simplexml_load_file($xmlFile);
             if ($config === false) {
@@ -18,7 +18,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Actualizar los colores en el archivo XML
             $config->mainColor = $mainColor;
             $config->footerColor = $footerColor;
-            $footer2Color = shadeColor($footerColor, 0.05);
             $config->footer2Color = $footer2Color;
 
             // Guardar los cambios en el archivo XML
@@ -39,18 +38,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     echo "Método no permitido. Debe ser POST.";
 }
 
- header('Location: index.php');
-
-
- function shadeColor($color, $percent) {
-    $color = str_replace("#", "", $color);
-    $t=$percent<0?0:255;
-    $p=$percent<0?$percent*-1:$percent;
-    $RGB = str_split($color, 2);
-    $R=hexdec($RGB[0]);
-    $G=hexdec($RGB[1]);
-    $B=hexdec($RGB[2]);
-    return '#'.substr(dechex(0x1000000+(round(($t-$R)*$p)+$R)*0x10000+(round(($t-$G)*$p)+$G​)*0x100+(round(($t-$B)*$p)+$B)),1);
-}
+header('Location: ../views/index.php');
 
 ?>

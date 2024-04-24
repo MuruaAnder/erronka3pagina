@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $data = date('Y-m-d'); // Obtiene la fecha actual
 
     // Ruta al archivo XML
-    $archivo_xml = 'iruzkinak.xml';
+    $archivo_xml = '../xml/iruzkinak.xml';
 
     // Carga el archivo XML existente o crea uno nuevo si no existe
     if (file_exists($archivo_xml)) {
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Komentarioa zuzen gorde da.";
 
     // Redireccionar de vuelta a index.php
-    header('Location: index.php');
+    header('Location: ../views/index.php');
     exit;
 } else {
     echo "Iruzkin berriak bidaltzeko formularioa erabili.";
