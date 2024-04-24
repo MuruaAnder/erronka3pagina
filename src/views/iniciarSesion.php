@@ -1,3 +1,7 @@
+<?php
+require_once("header.php");  // Assuming header.php is in the same directory level or adjust the path as necessary
+?>
+
 <center>
 <?php
         session_start();  // Asegurarse de que se inicia la sesión al comienzo del script.
@@ -92,4 +96,7 @@
             });
         });
     </script>
+<?php
+require_once("footer.php");  // Assuming header.php is in the same directory level or adjust the path as necessary
+?>
 
