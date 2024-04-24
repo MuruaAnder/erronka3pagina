@@ -32,7 +32,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
         <div class="fila">
             <div class="item">
                 <div class="icono">
-                    <img src="img/sabor1.png" alt="">
+                    <img src="<?= HREF_IMAGES ?>/sabor1.png" alt="">
                 </div>
                 <div class="info">
                     <h3><?= trans("Ensladas") ?></h3>
@@ -41,7 +41,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             </div>
             <div class="item">
                 <div class="icono">
-                    <img src="img/sabor2.png" alt="">
+                    <img src="<?= HREF_IMAGES ?>/sabor2.png" alt="">
                 </div>
                 <div class="info">
                     <h3><?= trans("Tortas") ?></h3>
@@ -50,7 +50,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             </div>
             <div class="item">
                 <div class="icono">
-                    <img src="img/sabor3.png" alt="">
+                    <img src="<?= HREF_IMAGES ?>/sabor3.png" alt="">
                 </div>
                 <div class="info">
                     <h3><?= trans("Hamburguesas") ?></h3>
@@ -62,7 +62,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
         <div class="fila">
             <div class="item">
                 <div class="icono">
-                    <img src="img/sabor4.png" alt="">
+                    <img src="<?= HREF_IMAGES ?>/sabor4.png" alt="">
                 </div>
                 <div class="info">
                     <h3><?= trans("Helados") ?></h3>
@@ -71,7 +71,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             </div>
             <div class="item">
                 <div class="icono">
-                    <img src="img/sabor5.png" alt="">
+                    <img src="<?= HREF_IMAGES ?>/sabor5.png" alt="">
                 </div>
                 <div class="info">
                     <h3><?= trans("Pastas") ?></h3>
@@ -80,7 +80,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             </div>
             <div class="item">
                 <div class="icono">
-                    <img src="img/sabor6.png" alt="">
+                    <img src="<?= HREF_IMAGES ?>/sabor6.png" alt="">
                 </div>
                 <div class="info">
                     <h3><?= trans("Galletas") ?></h3>
@@ -99,29 +99,29 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
 
         <div class="fila">
             <div class="item">
-                <img src="img/plato1.jpg" alt="" width="363" height="242.47">
+                <img src="<?= HREF_IMAGES ?>/plato1.jpg" alt="" width="363" height="242.47">
                 <p><?= trans("El kare") ?></p>
             </div>
             <div class="item">
-                <img src="img/plato2.jpg" alt="">
+                <img src="<?= HREF_IMAGES ?>/plato2.jpg" alt="">
                 <p><?= trans("Carne de Picanha") ?></p>
             </div>
             <div class="item">
-                <img src="img/plato3.jpg" alt="">
+                <img src="<?= HREF_IMAGES ?>/plato3.jpg" alt="">
                 <p>Phanaeng Curry</p>
             </div>
         </div>
         <div class="fila">
             <div class="item">
-                <img src="img/plato4.jpg" alt="">
+                <img src="<?= HREF_IMAGES ?>/plato4.jpg" alt="">
                 <p><?= trans("Pollo a la brasa") ?></p>
             </div>
             <div class="item">
-                <img src="img/plato5.jpg" alt="">
+                <img src="<?= HREF_IMAGES ?>/plato5.jpg" alt="">
                 <p><?= trans("Plato de Pizza con rucula") ?></p>
             </div>
             <div class="item">
-                <img src="img/plato6.jpg" alt="">
+                <img src="<?= HREF_IMAGES ?>/plato6.jpg" alt="">
                 <p><?= trans("Plato de pastas con tuco") ?></p>
             </div>
         </div>
@@ -137,7 +137,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             <div class="gallery-cell">
                 <div class="item">
                     <div class="foto">
-                        <img src="img/cheff1.jpg" alt="">
+                        <img src="<?= HREF_IMAGES ?>/cheff1.jpg" alt="">
                     </div>
                     <div class="info">
                         <h3><?= trans("El arte de las frutas") ?></h3>
@@ -149,7 +149,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             <div class="gallery-cell">
                 <div class="item">
                     <div class="foto">
-                        <img src="img/cheff2.jpg" alt="">
+                        <img src="<?= HREF_IMAGES ?>/cheff2.jpg" alt="">
                     </div>
                     <div class="info">
                         <h3><?= trans("Tratamientos prohibidos") ?></h3>
@@ -161,7 +161,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             <div class="gallery-cell">
                 <div class="item">
                     <div class="foto">
-                        <img src="img/cheff3.jpg" alt="">
+                        <img src="<?= HREF_IMAGES ?>/cheff3.jpg" alt="">
                     </div>
                     <div class="info">
                         <h3><?= trans("Los beneficios de la inflacion") ?></h3>
@@ -173,7 +173,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             <div class="gallery-cell">
                 <div class="item">
                     <div class="foto">
-                        <img src="img/cheff4.jpg" alt="">
+                        <img src="<?= HREF_IMAGES ?>/cheff4.jpg" alt="">
                     </div>
                     <div class="info">
                         <h3><?= trans("Problemas con las frutas") ?></h3>
@@ -185,7 +185,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             </div>
         </div>
         <button><?= trans("Leer más") ?></button>
-    </section>
+    </section >
     <?php
 require_once("footer.php");  // Assuming header.php is in the same directory level or adjust the path as necessary
 ?>
