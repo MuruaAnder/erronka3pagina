@@ -30,6 +30,8 @@ require_once(APP_DIR . "/src/language/translations.php");
     <link rel="stylesheet" href="<?= HREF_SRC_DIR ?>/views/estilo.css ">
 </head>
 <body>
+<section id="inicio">
+
     <!-- Header and Navigation setup -->
     <header>
         <div class="contenido-header">

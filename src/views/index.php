@@ -25,6 +25,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
         </div>
     </div>
 
+    </section>
     <!-- SECCION SABORES -->
     <section id="sabores">
         <h2><?= trans("Sabores") ?></h2>
