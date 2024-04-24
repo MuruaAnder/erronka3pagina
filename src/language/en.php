@@ -82,5 +82,13 @@ return [
     "Cerrar Sesion"=>"Close session",
     "¿No tienes cuenta? Regístrate"=>"Dont have an account? Register",
     "¿Ya tienes cuenta? Regístrate"=>"Already have an account? Register",
-
+    "¿Ya tienes cuenta? Inicia sesión"=>"Already have an account? Sign in",
+    "Nombre de usuario"=>"Username",
+    "Nombre"=>"Name",
+    "Primer apellido"=>"First surname",
+    "Segundo apellido"=>"Second surname",
+    "DNI"=>"ID",
+    "Telefono"=>"Phone",
+    "Correo electronico"=>"Email",
+    "Contraseña"=>"Password",
 ];

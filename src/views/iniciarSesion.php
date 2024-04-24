@@ -54,8 +54,8 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
 <div id="login-form">
             <h2><?= trans("Iniciar Sesion") ?></h2>
             <form method="post" action="iniciarSesion.php">
-                <input type="text" name="username" id="login-username" placeholder="Nombre de usuario" required>
-                <input type="password" name="password" id="login-password" placeholder="Contraseña" required>
+                <input type="text" name="username" id="login-username" placeholder=<?= trans("Nombre de usuario") ?> required>
+                <input type="password" name="password" id="login-password" placeholder="<?= trans("Contraseña") ?>" required>
                 <button id="botoia"type="submit"><?= trans("Iniciar Sesion") ?></button>
             </form>
         </div>
@@ -63,14 +63,14 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
         <div id="register-form" style="display:none;">
             <h2><?= trans("Registrarse") ?></h2>
             <form method="post">
-                <input type="text" name="username" placeholder="Nombre de usuario" required>
-                <input type="text" name="nombre" placeholder="Nombre" required>
-                <input type="text" name="apellido1" placeholder="Primer apellido" required>
-                <input type="text" name="apellido2" placeholder="Segundo apellido">
-                <input type="text" name="nan" placeholder="DNI" required>
-                <input type="number" name="telefonoa" placeholder="Telefonoa" required>
-                <input type="email" name="email" placeholder="Correo electrónico" required>
-                <input type="password" name="password" placeholder="Contraseña" required>
+                <input type="text" name="username" placeholder="<?= trans("Nombre de usuario") ?>" required>
+                <input type="text" name="nombre" placeholder="<?= trans("Nombre") ?>" required>
+                <input type="text" name="apellido1" placeholder="<?= trans("Primer apellido") ?>" required>
+                <input type="text" name="apellido2" placeholder="<?= trans("Segundo apellido") ?>">
+                <input type="text" name="nan" placeholder="<?= trans("DNI") ?>" required>
+                <input type="number" name="telefonoa" placeholder="<?= trans("Telefono") ?>" required>
+                <input type="email" name="email" placeholder="<?= trans("Correo electronico") ?>" required>
+                <input type="password" name="password" placeholder="<?= trans("Contraseña") ?>" required>
                 <button id="botoia" type="submit"><?= trans("Registrarse") ?></button>
             </form>
         </div>
@@ -83,19 +83,20 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="scripts.js"></script>
     <script>
-        $(document).ready(function() {
-            $("#switch-button").click(function() {
-                $("#login-form").toggle();
-                $("#register-form").toggle();
+    $(document).ready(function() {
+        $("#switch-button").click(function() {
+            $("#login-form").toggle();
+            $("#register-form").toggle();
 
-                if ($("#login-form").is(":visible")) {
-                    $("#switch-button").text(<?=trans("¿No tienes cuenta? Regístrate")?>);
-                } else {
-                    $("#switch-button").text(<?=trans("¿Ya tienes cuenta? Regístrate")?>);
-                }
-            });
+            if ($("#login-form").is(":visible")) {
+                $("#switch-button").text("<?=trans("¿No tienes cuenta? Regístrate")?>");
+            } else {
+                $("#switch-button").text("<?=trans("¿Ya tienes cuenta? Inicia sesión")?>");
+            }
         });
+    });
 </script>
+
 <?php
 require_once("footer.php");  // Assuming header.php is in the same directory level or adjust the path as necessary
 ?>

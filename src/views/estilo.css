@@ -533,6 +533,7 @@ input[type="text"], input[type="password"], input[type="email"],input[type="numb
     background: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     margin-top: 25px;
+    margin-bottom:20px ;
 }
 
 #reserva label, #reserva  input, #reserva  button {

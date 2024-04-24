@@ -79,5 +79,4 @@ return [
     "¿No tienes cuenta? Regístrate"=>"¿No tienes cuenta? Regístrate",
     "¿Ya tienes cuenta? Regístrate"=>"¿Ya tienes cuenta? Regístrate",
 
-
 ];

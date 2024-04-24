@@ -81,8 +81,15 @@ return [
     "Registrarse"=>"Erregistratu",
     "Cerrar Sesion"=>"Sesioa itxi",
     "¿No tienes cuenta? Regístrate"=>"Kuentarik ez? Erregistratu",
-    "¿Ya tienes cuenta? Regístrate"=>"Kuenta baduzu?Erregistratu",
-
+    "¿Ya tienes cuenta? Inicia sesión"=>"Kuenta baduzu?Erregistratu",
+    "Nombre de usuario"=>"Ezizena",
+    "Nombre"=>"Izena",
+    "Primer apellido"=>"Lehenenego abizena",
+    "Segundo apellido"=>"Bigarren abizena",
+    "DNI"=>"DNI",
+    "Telefono"=>"Telefonoa",
+    "Correo electronico"=>"Emaila",
+    "Contraseña"=>"Pasahitza",
     //
 
 ];
