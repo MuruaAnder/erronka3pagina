@@ -76,4 +76,11 @@ return [
     // Reserva 
     "Cantidad:"  => "Amount :",
     "Hora:"  => "Hour:",
+    "Reservar"=>"Reserve",
+    "Iniciar Sesion"=> "",
+    "Registrarse"=>"",
+    "Cerrar Sesion"=>"",
+    "¿No tienes cuenta? Regístrate"=>"",
+    "¿Ya tienes cuenta? Regístrate"=>"",
+
 ];

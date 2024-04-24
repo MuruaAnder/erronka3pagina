@@ -461,6 +461,7 @@ html {
         /* No usamos 'background-attachment: fixed;' en móviles para prevenir problemas de rendimiento */
     }
 }
+
 body {
     background-image: url('saioaHasi.webp');
     background-size: cover;
@@ -488,8 +489,8 @@ body {
     margin-bottom: 20px;
 }
 
-input[type="text"], input[type="password"], input[type="email"] {
-input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
+input[type="text"], input[type="password"], input[type="email"],input[type="number"] {
+ 
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -497,7 +498,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
     border-radius: 5px;
     box-sizing: border-box;
 }
-button {
+#botoia {
     padding: 10px;
     margin-top: 10px;
     background-color: #5C8CE6;
@@ -508,6 +509,51 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-button:hover {
+#botoia :hover {
     background-color: #4a76d4;
+}
+.botoia {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #5C8CE6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.botoia :hover {
+    background-color: #4a76d4;
+}
+#reserva {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 2px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+#reserva label, #reserva  input, #reserva  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#reserva input, #reserva  button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#reservakobotoia {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reservakobotoia:hover {
+    background-color: #45a049;
 }

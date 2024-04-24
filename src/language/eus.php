@@ -76,4 +76,13 @@ return [
     // Reserva 
     "Cantidad:"  => "Kantitatea:",
     "Hora:"  => "Ordua:",
+    "Reservar"=>"Erreserbatu",
+    "Iniciar Sesion"=> "Saioa hasi",
+    "Registrarse"=>"Erregistratu",
+    "Cerrar Sesion"=>"Sesioa itxi",
+    "¿No tienes cuenta? Regístrate"=>"Kuentarik ez? Erregistratu",
+    "¿Ya tienes cuenta? Regístrate"=>"Kuenta baduzu?Erregistratu",
+
+    //
+
 ];

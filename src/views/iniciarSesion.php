@@ -4,7 +4,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
 
 <center>
 <?php
-        session_start();  // Asegurarse de que se inicia la sesión al comienzo del script.
+          
 
         // Manejar cierre de sesión
         if (isset($_POST['action']) && $_POST['action'] === 'logout') {
@@ -14,7 +14,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             exit;
         }
 
-        require_once 'konexioa.php';
+        require_once '../required/konexioa.php';
 
         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['username']) && isset($_POST['password']) && !isset($_POST['action'])) {
             // Recogemos los datos del formulario
@@ -52,16 +52,16 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
         ?>
 
 <div id="login-form">
-            <h2>Iniciar Sesión</h2>
+            <h2><?= trans("Iniciar Sesion") ?></h2>
             <form method="post" action="iniciarSesion.php">
                 <input type="text" name="username" id="login-username" placeholder="Nombre de usuario" required>
                 <input type="password" name="password" id="login-password" placeholder="Contraseña" required>
-                <button type="submit">Iniciar Sesión</button>
+                <button id="botoia"type="submit"><?= trans("Iniciar Sesion") ?></button>
             </form>
         </div>
 
         <div id="register-form" style="display:none;">
-            <h2>Registrarse</h2>
+            <h2><?= trans("Registrarse") ?></h2>
             <form method="post">
                 <input type="text" name="username" placeholder="Nombre de usuario" required>
                 <input type="text" name="nombre" placeholder="Nombre" required>
@@ -71,14 +71,14 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
                 <input type="number" name="telefonoa" placeholder="Telefonoa" required>
                 <input type="email" name="email" placeholder="Correo electrónico" required>
                 <input type="password" name="password" placeholder="Contraseña" required>
-                <button type="submit">Registrarse</button>
+                <button id="botoia" type="submit"><?= trans("Registrarse") ?></button>
             </form>
         </div>
         <form method="post">
                 <input type="hidden" name="action" value="logout">
-                <button type="submit">Cerrar Sesión</button>
+                <button id="botoia" type="submit"><?= trans("Cerrar Sesion") ?></button>
             </form>
-        <button id="switch-button">¿No tienes cuenta? Regístrate</button>
+        <button id="switch-button" class="botoia"><?=trans("¿No tienes cuenta? Regístrate")?></button>
     </center>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="scripts.js"></script>
@@ -89,13 +89,13 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
                 $("#register-form").toggle();
 
                 if ($("#login-form").is(":visible")) {
-                    $("#switch-button").text("¿No tienes cuenta? Regístrate");
+                    $("#switch-button").text(<?=trans("¿No tienes cuenta? Regístrate")?>);
                 } else {
-                    $("#switch-button").text("¿Ya tienes cuenta? Inicia sesión");
+                    $("#switch-button").text(<?=trans("¿Ya tienes cuenta? Regístrate")?>);
                 }
             });
         });
-    </script>
+</script>
 <?php
 require_once("footer.php");  // Assuming header.php is in the same directory level or adjust the path as necessary
 ?>

@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Formulario de reservas para comer y cenar</title>
-    <link rel="stylesheet" type="text/css" href="reserva.css">
-</head>
-
-<body>
+<?php
+require_once("header.php");  // Assuming header.php is in the same directory level or adjust the path as necessary
+?>
 <?php
     $usuarioBezeroa = isset($_SESSION['usuario']) ? $_SESSION['usuario'] : null;
 
@@ -40,15 +33,15 @@
       }
 }
 ?>
-    <form method="post">
+    <form method="post" id="reserva">
         <label for="zenbatekoa"><?= trans("Cantidad:") ?></label>
         <input type="number" name="zenbatekoa" id="zenbatekoa" required>
 
         <label for="ordua"><?= trans("Hora:") ?></label>
         <input type="time" name="ordua" id="ordua" required>
 
-        <button type="submit">Reservar</button>
+        <button type="submit" id="reserbakobotoia"><?= trans("Reservar") ?></button>
     </form>
-</body>
-
-</html>
+    <?php
+require_once("footer.php");  // Assuming header.php is in the same directory level or adjust the path as necessary
+?>

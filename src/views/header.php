@@ -74,11 +74,11 @@ require_once (APP_DIR . "/src/language/translations.php");
                 <nav id="nav">
                     <ul>
                         <!-- Navigation items -->
-                        <li><a href="#inicio"><i class="fa-solid fa-house"></i><?= trans("Inicio") ?></a></li>
-                        <li><a href="#sabores"><i class="fa-solid fa-ice-cream"></i><?= trans("Sabores") ?></a></li>
-                        <li><a href="#platos"><i class="fa-solid fa-utensils"></i><?= trans("Platos") ?></a></li>
-                        <li><a href="#blog"><i class="fa-solid fa-pen"></i><?= trans("Blog") ?></a></li>
-                        <li><a href="#contacto"><i class="fa-solid fa-comments"></i><?= trans("Contacto") ?></a></li>
+                        <li><a href="<?= HREF_SRC_DIR ?>/views"><i class="fa-solid fa-house"></i><?= trans("Inicio") ?></a></li>
+                        <li><a href="<?= HREF_SRC_DIR ?>/views/index.php#sabores"><i class="fa-solid fa-ice-cream"></i><?= trans("Sabores") ?></a></li>
+                        <li><a href="<?= HREF_SRC_DIR ?>/views/index.php#platos"><i class="fa-solid fa-utensils"></i><?= trans("Platos") ?></a></li>
+                        <li><a href="<?= HREF_SRC_DIR ?>/views/index.php#blog"><i class="fa-solid fa-pen"></i><?= trans("Blog") ?></a></li>
+                        <li><a href="<?= HREF_SRC_DIR ?>/views/index.php#contacto"><i class="fa-solid fa-comments"></i><?= trans("Contacto") ?></a></li>
                         <li><a href="iniciarSesion.php"><i class="fa-solid fa-sign-in"></i><?= $usuarioa ?></a></li>
                     </ul>
                 </nav>
