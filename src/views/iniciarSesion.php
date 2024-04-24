@@ -76,4 +76,20 @@
             </form>
         <button id="switch-button">¿No tienes cuenta? Regístrate</button>
     </center>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#switch-button").click(function() {
+                $("#login-form").toggle();
+                $("#register-form").toggle();
+
+                if ($("#login-form").is(":visible")) {
+                    $("#switch-button").text("¿No tienes cuenta? Regístrate");
+                } else {
+                    $("#switch-button").text("¿Ya tienes cuenta? Inicia sesión");
+                }
+            });
+        });
+    </script>
 
