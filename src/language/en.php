@@ -73,4 +73,7 @@ return [
     "Nombre"=>"Name",
     "Komentario:"=>"Comment",
     "Comentario"=>"Comment",
+    // Reserva 
+    "Cantidad:"  => "Amount :"
+    "Hora:"  => "Hour:"
 ];
