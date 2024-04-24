@@ -77,10 +77,10 @@ return [
     "Cantidad:"  => "Amount :",
     "Hora:"  => "Hour:",
     "Reservar"=>"Reserve",
-    "Iniciar Sesion"=> "",
-    "Registrarse"=>"",
-    "Cerrar Sesion"=>"",
-    "¿No tienes cuenta? Regístrate"=>"",
-    "¿Ya tienes cuenta? Regístrate"=>"",
+    "Iniciar Sesion"=> "Session start",
+    "Registrarse"=>"Register",
+    "Cerrar Sesion"=>"Close session",
+    "¿No tienes cuenta? Regístrate"=>"Dont have an account? Register",
+    "¿Ya tienes cuenta? Regístrate"=>"Already have an account? Register",
 
 ];
