@@ -74,6 +74,6 @@ return [
     "Komentario:"=>"Comment",
     "Comentario"=>"Comment",
     // Reserva 
-    "Cantidad:"  => "Amount :"
-    "Hora:"  => "Hour:"
+    "Cantidad:"  => "Amount :",
+    "Hora:"  => "Hour:",
 ];

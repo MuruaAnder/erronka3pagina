@@ -74,6 +74,6 @@ return [
     "Komentario:"=>"Komentarioa",
     "Comentario"=>"Komentarioa",
     // Reserva 
-    "Cantidad:"  => "Kantitatea:"
-    "Hora:"  => "Ordua:"
+    "Cantidad:"  => "Kantitatea:",
+    "Hora:"  => "Ordua:",
 ];
