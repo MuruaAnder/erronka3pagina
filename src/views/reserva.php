@@ -37,17 +37,17 @@
 
             $stmt->close();
             $conn->close();
-        }
-    }
-    ?>
+      }
+}
+?>
     <form method="post">
-        <label for="zenbatekoa"><?= trans("Cantidad:") ?></label>
+        <label for="zenbatekoa">Cantidad:</label>
         <input type="number" name="zenbatekoa" id="zenbatekoa" required>
 
-        <label for="ordua"><?= trans("Hora:") ?></label>
+        <label for="ordua">Hora:</label>
         <input type="time" name="ordua" id="ordua" required>
 
-        <button type="submit"><?= trans("Reservar") ?></button>
+        <button type="submit">Reservar</button>
     </form>
 </body>
 
