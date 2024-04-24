@@ -41,10 +41,10 @@
 }
 ?>
     <form method="post">
-        <label for="zenbatekoa">Cantidad:</label>
+        <label for="zenbatekoa"><?= trans("Cantidad:") ?></label>
         <input type="number" name="zenbatekoa" id="zenbatekoa" required>
 
-        <label for="ordua">Hora:</label>
+        <label for="ordua"><?= trans("Hora:") ?></label>
         <input type="time" name="ordua" id="ordua" required>
 
         <button type="submit">Reservar</button>

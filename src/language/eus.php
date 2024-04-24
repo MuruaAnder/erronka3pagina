@@ -73,4 +73,7 @@ return [
     "Nombre"=>"Izena",
     "Komentario:"=>"Komentarioa",
     "Comentario"=>"Komentarioa",
+    // Reserva 
+    "Cantidad:"  => "Kantitatea:"
+    "Hora:"  => "Ordua:"
 ];

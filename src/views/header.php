@@ -1,5 +1,5 @@
 <?php
-// Define application directory relative to the server document root for easy access from any location.
+// Define application directory relative to the server docu t root for easy access from any location.
 define('APP_DIR', $_SERVER['DOCUMENT_ROOT'] . '/public/3.erronka/web-comidas-main');
 
 define('HREF_SRC_DIR', '/public/3.erronka/web-comidas-main/src');
@@ -106,8 +106,11 @@ require_once (APP_DIR . "/src/language/translations.php");
                         </form>
                     </div>
                 </div>
-                <div class="nav-responsive" id="bar">
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
-        </header>
+            <script src="<?= '../required/script.js' ?>"></script>
+  
+</body>
+        </header>
