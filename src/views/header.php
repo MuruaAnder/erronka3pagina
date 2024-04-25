@@ -113,4 +113,4 @@ require_once (APP_DIR . "/src/language/translations.php");
             <script src="<?= '../required/script.js' ?>"></script>
   
 </body>
-        </header>
+</header>
