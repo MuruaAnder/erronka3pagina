@@ -15,7 +15,7 @@ require_once("header.php");  // Assuming header.php is in the same directory lev
             $egoera = "Hasi gabe"; // Estado por defecto
 
             // Conexión a la base de datos
-            require_once '../../requiered/konexioa.php';
+            require_once '../required/konexioa.php';
             $conn = connection();
 
             // Preparamos la consulta SQL para insertar la reserva
